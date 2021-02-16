@@ -1,14 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wildlife</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div>Hello Word!</div>
-</body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-background">
+        <header class="header">
+          <div class="header__logo">
+            <img src="/assets/path0.svg" alt="logo" />
+            <p>Wildlife</p>
+          </div>
+          <nav class="nav">
+            <ul class="list">
+              <li><a class="list__item list__item_text" href="#">Blog</a></li>
+              <li>
+                <a class="list__item list__item_text" href="#">Contacts</a>
+              </li>
+              <li class="list__item list__item_text">
+                <img src="/assets/Vector.svg" alt="finder" />
+              </li>
+              <li class="list__item list__item_active">Sign in</li>
+            </ul>
+          </nav>
+        </header>
+        <section class="survival">
+          <h1 class="survival__title">Survival</h1>
+          <p class="survival__subtitle">
+            What this means is that we exist to help protect our environment and
+            do in numbers of ways. You can save the planet by donation.
+          </p>
+          <button class="survival__button">Donate</button>
+        </section>
+      </div>
+    </main>
+    <div class="articles">
+      <section class="articles-header">
+        <h2>Latest articles</h2>
+        <p class="articles-header__subtitle">Breaking news from the wild</p>
+      </section>
+      <section class="slider">
+        <div class="arrow arrow-left"></div>
+        <div class="slider__cards">
+          <div class="slider__card slider__card_deer">
+            <h4>Deer</h4>
+            <p>Naturalist investgation</p>
+          </div>
+          <div class="slider__card slider__card_squirrel">
+            <h4>Squirrel</h4>
+            <p>Kamikaze squirrels</p>
+          </div>
+          <div class="slider__card slider__card_bird">
+            <h4>Bird</h4>
+            <p>Birds Fight club</p>
+          </div>
+        </div>
+        <div class="arrow arrow-right"></div>
+      </section>
+      <section class="notification">
+        <p>Get notified about new amazing articles</p>
+        <form class="notification__email">
+          <input type="text" placeholder="Email" />
+          <input type="submit" class="survival__button" value="Send" />
+        </form>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-background">
+        <div class="footer-wrapper">
+          <div class="header__logo">
+            <img src="/assets/path0.svg" alt="logo" />
+            <p>Wildlife</p>
+          </div>
+          <nav class="footer__nav">
+            <ul class="list">
+              <li>
+                <a class="list__item list__item_text" href="#">Articles</a>
+              </li>
+              <li>
+                <a class="list__item list__item_text" href="#">Abous us</a>
+              </li>
+              <li>
+                <a class="list__item list__item_text" href="#">Learn more</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="social">
+            <ul class="list social__list">
+              <li class="list__item">
+                <img src="/assets/facebook.svg" alt="fb" />
+              </li>
+              <li class="list__item">
+                <img src="/assets/ig.svg" alt="ig" />
+              </li>
+              <li class="list__item">
+                <img src="/assets/p.svg" alt="p" />
+              </li>
+              <li class="list__item">
+                <img src="/assets/tg.svg" alt="tg" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
